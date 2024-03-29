@@ -1,0 +1,52 @@
+:root,
+body {
+	margin: 0;
+	line-height: 1.62;
+}
+
+hr {
+	margin: 1rem 0;
+}
+
+h1 {
+	text-align: center;
+	font-weight: 400;
+	font-size: 3rem;
+}
+
+div div:has(h1) {
+	line-height: 2rem;
+}
+
+article {
+	background: linear-gradient(180deg, #fafafa, #fff);
+	padding: 2rem;
+}
+
+a {
+	color: #5f6368;
+	text-decoration: none;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 400;
+}
+
+input,
+button,
+textarea {
+	font-size: 1rem;
+	padding: 0.5rem;
+	border: 1px solid #ccc;
+	background: #fff;
+	display: block;
+}
+
+label {
+	display: block;
+	margin: 1rem 0 0.5rem;
+}

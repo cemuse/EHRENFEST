@@ -1,0 +1,33 @@
+.footer {
+  background-color: #f8f9fa;
+  padding: 3rem;
+  color: #5f6368;
+}
+
+.title {
+  font-size: 28pt;
+  margin: 0;
+  font-weight: 700;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid div {
+  padding: 1rem;
+}
+
+.gird ul {
+  list-style: none;
+  padding: 0;
+}
+
+.grid a {
+  display: block;
+}
+
+.gird a:hover {
+  color: #202124;
+}
